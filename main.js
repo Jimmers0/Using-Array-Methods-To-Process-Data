@@ -40,7 +40,7 @@ document.querySelector('#answer2').innerHTML = answer2
  answer3 = ''
 
  gbp.forEach(function(item){
-    answer3 += item.name + ' costs ' + item.cost 
+    answer3 += item.name + ' costs \u00A3' + item.cost 
  })
 
  document.querySelector('#answer3').innerHTML = answer3
